@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/Thiago-Sorrilha/Conversao_Temperatura.git
     targetRevision: HEAD
-    path: App
+    path: src/k8s
   destination:
     server: https://kubernetes.default.svc
     namespace: conversao
